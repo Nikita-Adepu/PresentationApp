@@ -1,10 +1,10 @@
-# 🎤 Presentation Management System 
+# Presentation Management System 
 
 A Spring Boot-based RESTful API for managing student presentations with role-based access for students and admins. This backend-only project supports secure login, presentation assignment, scoring, rating, and status tracking — ready to be consumed by any frontend or API testing tools like Postman.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Backend Framework:** Spring Boot
 - **ORM:** Hibernate + Spring Data JPA
@@ -14,21 +14,21 @@ A Spring Boot-based RESTful API for managing student presentations with role-bas
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-- 🔐 **Authentication**
+-  **Authentication**
   - Register and login functionality for students and admins
-- 👥 **Role-Based Access**
+-  **Role-Based Access**
   - Admin and Student have different access levels
-- 📝 **Presentation Management**
+-  **Presentation Management**
   - Students can upload/view their presentations
   - Admins can assign, score, and update presentation statuses
-- ⭐ **Rating System**
+-  **Rating System**
   - Admins can rate student presentations
 
 ---
 
-## 📂 API Endpoints
+##  API Endpoints
 
 | HTTP Method | Endpoint                                             | Role       | Description                                 |
 |-------------|------------------------------------------------------|------------|---------------------------------------------|
